@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aimbot GUI</title>
+    <style>
+      #speed-slider {
+        display: inline-block;
+        width: 400px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <script src="aimbot.js"></script>
+  </head>
+  <body>
+    <h1>Aimbot GUI</h1>
+
+    <div class="container">
+      <div id="speed-slider"></div>
+      <button id="start-button">Start Aimbot</button>
+      <button id="stop-button">Stop Aimbot</button>
+      <input type="text" id="target-color">
+    </div>
+  </body>
+</html>
